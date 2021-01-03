@@ -1,0 +1,139 @@
+.Start {
+  text-align: center;
+  background: #FAFAFA;
+}
+.card {
+    position: static !important;
+    width: 388px;
+    height: auto;
+    top: 153px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.margen{
+    margin-left: 33% !important;
+}
+/*Image*/
+.card img {
+    height: 233px;
+}
+.carousel-control-next-icon{
+    background-image:none !important;
+}
+.carousel-control-prev-icon{
+    background-image:none !important;
+}
+/*Title*/
+.card-title {
+    /*position: absolute;*/
+    
+    /* text-xl/Medium */
+    
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px !important; 
+    line-height: 150% !important;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    /* gray/800 */
+    
+    color: #27272A;
+    border-radius: 4px;
+}
+
+/*Text*/
+.card-text{
+    /*position: absolute;*/
+    left: 0%;
+    right: 69.64%;
+    top: -4.32%;
+    bottom: 82.73%;
+    /* text-xl/Medium */
+    
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    /* gray/800 */
+    
+    color: #3F3F46;
+    border-radius: 4px;
+}
+/*Previous and next*/
+.btn-danger{
+    width: 20%;
+    height: 40px !important;    
+    top: 30% !important;
+    opacity: 0.5 !important;
+}
+
+/* Button */
+.card .btn-light{
+    position: static;
+    margin-top: 20%;
+    bottom: 20%;
+    
+    /* text-base/Medium */
+    
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px 
+      display: flex;
+    align-items: center;
+    text-align: center;    
+
+    */
+    /* gray/800 */
+    background: #FFFFFF;
+    /* gray/400 */
+    
+    border: 1px solid #A1A1AA;
+    box-sizing: border-box;
+    /* shadow-base */
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    
+    color: #27272A;
+}
+/*BTN*/
+.btn{
+   margin: 0% -48%  0% -48%
+}
+
+.row{
+    justify-content: center;
+}
+
+.carousel-inner{
+    height: 650px;
+}
+
+
+@media screen and (max-width: 770px){
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .margen {
+        width: auto;
+        position: static !important;
+        margin-left: 0px !important;
+    }
+}
