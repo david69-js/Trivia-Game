@@ -37,7 +37,7 @@ export default class Posts extends Component {
                   
                   {
                     this.state.quests.map((quest, i) =>{
-                        console.log(quest)
+                       
                       return <Carousel.Item >
                               <Card className="margen" >
                                 <Card.Img src={cubo} />
